@@ -1,0 +1,7 @@
+scikit-learn
+pandas
+rich
+chronos-forecasting
+accelerate
+autogluon
+seaborn
