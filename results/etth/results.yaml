@@ -1,312 +1,43 @@
 imputation_errors:
   20% of data removed in 1 sequence:
     chronos:
-      ac_score_imputed: !!python/object/apply:numpy.core.multiarray._reconstruct
-        args:
-        - &id001 !!python/name:numpy.ndarray ''
-        - !!python/tuple
-          - 0
-        - !!binary |
-          Yg==
-        state: !!python/tuple
-        - 1
-        - !!python/tuple
-          - 16
-        - &id002 !!python/object/apply:numpy.dtype
-          args:
-          - f8
-          - false
-          - true
-          state: !!python/tuple
-          - 3
-          - <
-          - null
-          - null
-          - null
-          - -1
-          - -1
-          - 0
-        - false
-        - !!binary |
-          AAAAAAAA8D8BEiGLEBftP6WYXzyD6Oc/hHvpxY1Y4j/9xnBtHXDZP//CiAwb3c0/m0JyswOftj8D
-          pAwomFWsv7j3WONHbcm/+86Kcg0L078ojxB513nWvyv1qprdW9i/06/gmQHo2L/Erz4r9YzYv3A+
-          +S6o0ta/OSO8iYmH078=
       nmae: 0.22000172911153826
       nrmse: 0.2674019673815244
     gmm:
-      ac_score_imputed: !!python/object/apply:numpy.core.multiarray._reconstruct
-        args:
-        - *id001
-        - !!python/tuple
-          - 0
-        - !!binary |
-          Yg==
-        state: !!python/tuple
-        - 1
-        - !!python/tuple
-          - 16
-        - *id002
-        - false
-        - !!binary |
-          AAAAAAAA8D9tK54/yVroP3fRbsRnL+g/bTYbECUp6D9ICEKp483nPw2cnH5l6Oc/G10D12OW5z8Z
-          JyJ9k3bnPx1bm1PUEuc/t6keUaAR5z+ox4lbutbmP4k9eD/k4OY/cGmhlISD5j9wROllH1zmP/wQ
-          Zj/6RuY/gaTBNML35T8=
       nmae: 0.21683588773367543
       nrmse: 0.2818918741722913
     interpolation:
-      ac_score_imputed: !!python/object/apply:numpy.core.multiarray._reconstruct
-        args:
-        - *id001
-        - !!python/tuple
-          - 0
-        - !!binary |
-          Yg==
-        state: !!python/tuple
-        - 1
-        - !!python/tuple
-          - 16
-        - *id002
-        - false
-        - !!binary |
-          AAAAAAAA8D+ZPp0v8vjvPwd9YV/k8e8/Fbtzj9bq7z+X+Pq/yOPvP2A1HvG63O8/P3EEI63V7z8H
-          rNRVn87vP4fltYmRx+8/kx3PvoPA7z/5U0f1dbnvP5CIRS1osu8/JbvwZlqr7z+J62+iTKTvP5AZ
-          6t8+ne8/C0WGHzGW7z8=
       nmae: 0.18317237282342713
       nrmse: 0.22067438359028355
     knn:
-      ac_score_imputed: !!python/object/apply:numpy.core.multiarray._reconstruct
-        args:
-        - *id001
-        - !!python/tuple
-          - 0
-        - !!binary |
-          Yg==
-        state: !!python/tuple
-        - 1
-        - !!python/tuple
-          - 16
-        - *id002
-        - false
-        - !!binary |
-          AAAAAAAA8D9L6CH6O5LKP4F1jvV0zMg/kK5j0Ld7xT/R+MXBahrDP9kR+Sw3ecI/GyLSBgHPvz+L
-          V1Ofzxm/P3MH+/rPOr4/zVdJ5H3TuT/LoebCjGC5Py7Xc06OlLM/zNejMc26sj8HsJxSlHezP7me
-          3aMfhLM/U2RW0TZBsT8=
       nmae: 0.17851875009930673
       nrmse: 0.21725842631179373
   20% of data removed in 5 sequences:
     chronos:
-      ac_score_imputed: !!python/object/apply:numpy.core.multiarray._reconstruct
-        args:
-        - *id001
-        - !!python/tuple
-          - 0
-        - !!binary |
-          Yg==
-        state: !!python/tuple
-        - 1
-        - !!python/tuple
-          - 16
-        - *id002
-        - false
-        - !!binary |
-          AAAAAAAA8D+IneNXy9TuP2Sz7tcxJuw/sHJGV87C6D+cdEcNbRvlPwjwxRLqkeE/yRM1QV783D97
-          Bl+dixXYP93Chy0kedQ/Jfdsf10w0j9M2JutbNLQPwN0TWjfB9A/ncEHr5qAzz/jqMiRk9bPPyHz
-          NOQqn9A/eso0nMDs0T8=
       nmae: 0.1045429905429907
       nrmse: 0.14436824483066826
     gmm:
-      ac_score_imputed: !!python/object/apply:numpy.core.multiarray._reconstruct
-        args:
-        - *id001
-        - !!python/tuple
-          - 0
-        - !!binary |
-          Yg==
-        state: !!python/tuple
-        - 1
-        - !!python/tuple
-          - 16
-        - *id002
-        - false
-        - !!binary |
-          AAAAAAAA8D839DO9ZKXsPwndjd6cgOw/jfZSLHlk7D83MdnbsCLsP5XN6s57Fuw/CcRfXGTc6z+V
-          EiK2RbTrP3k+h2GRaus/e8NWdy9W6z97JtQTxibrP3FNydF4C+s/U/uzMdXL6j8z2FxNv6DqP92s
-          l8F/gOo/pOs1iatF6j8=
       nmae: 0.17123643374378203
       nrmse: 0.23214084619509054
     interpolation:
-      ac_score_imputed: !!python/object/apply:numpy.core.multiarray._reconstruct
-        args:
-        - *id001
-        - !!python/tuple
-          - 0
-        - !!binary |
-          Yg==
-        state: !!python/tuple
-        - 1
-        - !!python/tuple
-          - 16
-        - *id002
-        - false
-        - !!binary |
-          AAAAAAAA8D9/xM1D/e7vPxTEdCD83e8/SGGOmPzM7z+k/rOu/rvvP7P+fmUCq+8/+8OIvwea7z8L
-          sWq/DonvP2UovmcXeO8/mIwcuyFn7z8sQB+8LVbvP6ulX207Re8/nB930Uo07z+LEP/qWyPvPwDb
-          kLxuEu8/h+HFSIMB7z8=
       nmae: 0.15845333956098998
       nrmse: 0.20848132980663928
     knn:
-      ac_score_imputed: !!python/object/apply:numpy.core.multiarray._reconstruct
-        args:
-        - *id001
-        - !!python/tuple
-          - 0
-        - !!binary |
-          Yg==
-        state: !!python/tuple
-        - 1
-        - !!python/tuple
-          - 16
-        - *id002
-        - false
-        - !!binary |
-          AAAAAAAA8D9wMQARQuPLP7A9oAwQBsw/VCPpxdtMyT/sM7XwlyzIP8jPR5piRMg/uir2SncYxD8N
-          ANJ43xbBP/PokM6mhME/2JNNg9qHwj825/us/RzBP90S5RFq88A/ZDZzDU34vz+xScsozHq8P99n
-          0Klixbs/XfyhSQUVuz8=
       nmae: 0.13498821220165505
       nrmse: 0.17701304780407368
   20% of data removed in random rows:
     chronos:
-      ac_score_imputed: !!python/object/apply:numpy.core.multiarray._reconstruct
-        args:
-        - *id001
-        - !!python/tuple
-          - 0
-        - !!binary |
-          Yg==
-        state: !!python/tuple
-        - 1
-        - !!python/tuple
-          - 16
-        - *id002
-        - false
-        - !!binary |
-          AAAAAAAA8D/brOMPIKCCv7/9dmJJvpM/QOjjn1MSYr892ulTvTNwP8RQAc3VQ4i/iRqPDj9Akb/o
-          wXOtTyNrP+v6h3bee4W/0Os2FguKaz+yEsoyLzZ0P+XozOrheos/6EpwRko2hb+ttSlevcttP9eh
-          Vrquslu/S6vn1PxzaD8=
       nmae: 0.10912540081070438
       nrmse: 0.15318695396189372
     gmm:
-      ac_score_imputed: !!python/object/apply:numpy.core.multiarray._reconstruct
-        args:
-        - *id001
-        - !!python/tuple
-          - 0
-        - !!binary |
-          Yg==
-        state: !!python/tuple
-        - 1
-        - !!python/tuple
-          - 16
-        - *id002
-        - false
-        - !!binary |
-          AAAAAAAA8D9zQdNSLHKCP1yOxIRpKV4/A7gthPH0OD9r7i1xmTtrvyA/b2tyxok/U4d4vnPEeb9I
-          xT2Tgg9WP3WMbZMPXxc/iG0WQxseij+dJcrE6Rdxv1U/OgNMuQU/BDnVtnd+kb9eWA0icc1xPwCd
-          WR5fLXA/YXxH1udxfD8=
       nmae: 0.16056750220000385
       nrmse: 0.21253313629340584
     interpolation:
-      ac_score_imputed: !!python/object/apply:numpy.core.multiarray._reconstruct
-        args:
-        - *id001
-        - !!python/tuple
-          - 0
-        - !!binary |
-          Yg==
-        state: !!python/tuple
-        - 1
-        - !!python/tuple
-          - 16
-        - *id002
-        - false
-        - !!binary |
-          AAAAAAAA8D+wO9VbgQd7v8mObpsaL2Y/7KFVcpeycT/d1jRPT2x5v6GNcs6Z5YC/GxDkyHPqd78r
-          d5nWTE5tv2s4hpfkOn6/6V3s3l1CcD//R5vP56R8v6CUITViqoM/0wgm5cNIgb9P7qXq9+dgvw8J
-          sRk/Qn2/rUU1jYYxgD8=
       nmae: 0.030106158040461
       nrmse: 0.04514333158293454
     knn:
-      ac_score_imputed: !!python/object/apply:numpy.core.multiarray._reconstruct
-        args:
-        - *id001
-        - !!python/tuple
-          - 0
-        - !!binary |
-          Yg==
-        state: !!python/tuple
-        - 1
-        - !!python/tuple
-          - 16
-        - *id002
-        - false
-        - !!binary |
-          AAAAAAAA8D/U+7n3X96Iv4DJJwSQQRO/TxWhudFWhb9jrOxDZ2l9v9+4LWKGVWC/OSiKXBXajr8E
-          HwggHY1gvwu11JNJ6nI/9SNKAODSjz/zvbEecoB2P/Mj0/C3s0S/G4mcbBNxOL+X00vvbI+HP39+
-          KhlrjEq/qYW/AT83dD8=
       nmae: 0.0785176428070616
       nrmse: 0.11524969795731811
-  ac_score_original:
-    20% of data removed in 1 sequence: !!python/object/apply:numpy.core.multiarray._reconstruct
-      args:
-      - *id001
-      - !!python/tuple
-        - 0
-      - !!binary |
-        Yg==
-      state: !!python/tuple
-      - 1
-      - !!python/tuple
-        - 16
-      - *id002
-      - false
-      - !!binary |
-        AAAAAAAA8D9P3Xt6uRHsPyz1FyrCOug/+IJID+JW5D9Lst2RMJXgP7uoOz65Yto/NDq6eRk01T/u
-        rVQu5szQP8vpfXrtL8s/W2thToCNyD8lBWXWIRLHPwziLIgE38U/Gc3mNqTtxD9vlbBJLL/EP7Ts
-        OcXx98Q/c0H0TBLIxT8=
-    20% of data removed in 5 sequences: !!python/object/apply:numpy.core.multiarray._reconstruct
-      args:
-      - *id001
-      - !!python/tuple
-        - 0
-      - !!binary |
-        Yg==
-      state: !!python/tuple
-      - 1
-      - !!python/tuple
-        - 16
-      - *id002
-      - false
-      - !!binary |
-        AAAAAAAA8D/hGzFkrLbsP9hWBgZ/h+k/6D5EiFVF5j+JdzsvDwrjP7Por7YFEeA/YH7qbPJ02z+d
-        HmU1q4LXPwEOS3FVdNQ/ISM4bUTn0j+tDRM7runRP63oOBEK/NA/0U8mAUFx0D9E6bMu/nvQP3dV
-        QrEv2NA/ES5KwNxd0T8=
-    20% of data removed in random rows: !!python/object/apply:numpy.core.multiarray._reconstruct
-      args:
-      - *id001
-      - !!python/tuple
-        - 0
-      - !!binary |
-        Yg==
-      state: !!python/tuple
-      - 1
-      - !!python/tuple
-        - 16
-      - *id002
-      - false
-      - !!binary |
-        AAAAAAAA8D8ZNxK0yll3v/DmfP6qPFM/q8DHuaM4Nz+FRyPTG72Mv2AX4mhrWXG/W0UBQd7MZr/b
-        Iw+eQPhovywb9e/UMWO/icrFd/86YD9wPcn2pRKBv8+1c5gLJ3I/BWzCEWKFdb/UiWXQDG5fP2cq
-        wNFmKHa/izsXfZ6NfT8=
 regression_errors:
   20% of data removed in 1 sequence:
     chronos:
