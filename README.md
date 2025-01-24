@@ -34,5 +34,5 @@ pip3 install -r requirements.txt
 
 # Results
 
-You can see the results in the paper.pdf
+You can see the results in the [pdf file](paper.pdf).
  
