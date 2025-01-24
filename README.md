@@ -11,9 +11,9 @@ Python Version:
 
 # Hardware used
 
-- CPU: AMD EPYC-Milan processor (14 cores, 2.449 GHz);
-- GPU: NVIDIA RTX 6000 Ada Generation;
-- 112 GB of RAM.
+- CPU: AMD EPYC-Milan processor (14 cores, 2.449 GHz)
+- GPU: NVIDIA RTX 6000 Ada Generation
+- 112 GB of RAM
 
 # Requirements
 
